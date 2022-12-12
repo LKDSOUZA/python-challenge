@@ -5,7 +5,7 @@ total = []
 votes = {}
 total = 0
 
-csvpath = os.path.join('Resources/python-challenge/PyPoll/Resources', 'election_data.csv')
+csvpath = os.path.join('Resources', 'election_data.csv')
 
 with open(csvpath, 'r') as csv_file:
     csv_reader = csv.reader(csv_file)
@@ -41,7 +41,7 @@ with open(csvpath, 'r') as csv_file:
     print("----------------------------------")
 
    
-    outpath = os.path.join("Resources/python-challenge/PyPoll/Resources/analysis", "financial_analysis.txt")
+    outpath = os.path.join("Resources/analysis", "financial_analysis.txt")
 
 with open(outpath, 'w') as output:
     

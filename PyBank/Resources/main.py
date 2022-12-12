@@ -6,7 +6,7 @@ pnl = []
 total_months = []
 
 
-csvpath = os.path.join('Resources/python-challenge/PyBank/Resources', 'budget_data.csv')
+csvpath = os.path.join('Resources', 'budget_data.csv')
 
 with open(csvpath, 'r') as csv_file:
     
@@ -42,10 +42,7 @@ for i in results:
 
 
 
-
-
-
-outpath = os.path.join("Resources/python-challenge/PyBank/Resources/analysis", "financial_analysis.txt")
+outpath = os.path.join("Resources/analysis", "financial_analysis.txt")
 
 with open(outpath, 'w') as output:
     
